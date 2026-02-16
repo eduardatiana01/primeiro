@@ -1,0 +1,122 @@
+body{
+    background-color: #f4f8fc;
+    color: #03396c;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.header{
+    background-color:#8dbcec;
+    color: white;
+    display: flex;
+    justify-content:center;
+    padding: 5px 5px;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.titulo{
+    position: absolute;
+     left: 570px;
+    transition:translatex;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.logo h1{
+font-size: 18px;
+}
+.logo p{
+    font-size: 12px;
+}
+.home-icon{
+    font-size:26px ;
+    cursor: pointer;
+
+}
+.topo{
+    background-color: #6fafea;
+    display: flex;
+    align-items: left;
+    gap: 8px;
+}
+
+.topo h1{
+    background-color: white;
+
+}
+
+.lema{
+    text-align: center;
+    padding:10px;
+    margin-top:20px;
+    font-size:12px ;
+}
+.container{
+    background-color: #ffff ;
+    width:80% ;
+    margin: 40px auto;
+    padding:30px ;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1) ;
+
+}
+
+.accoes{
+    padding:10px;
+    width: 200px;
+    height:auto;
+   border-radius: 20px;
+   border: 1px solido rgb(105, 99, 99);
+
+}
+.container h2{
+    margin:15px ;
+
+}
+.descriacao{
+    font-size:15px ;
+    line-height: 1.6;
+    margin-bottom:30px ;
+
+}
+
+.cell{
+    text-align: right;
+    margin: 20 0px;
+}
+
+.btn{
+    background-color: #2084e7;
+    color: white;
+    text-align: left;
+    padding: 8px;
+    font-size: 10px;
+    margin-top: 20px;
+    border-radius: 8px 10px;
+}
+
+
+
+
+.footer {
+    background:#2084e7;
+    color:white;
+    text-align: center;
+    padding:10px;
+    margin-top: 40px;
+    font-size:15px ;
+}
+
+
+
